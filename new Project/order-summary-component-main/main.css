@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,500;1,300;1,400&display=swap');
+* {
+	margin:0;
+	padding:0;
+}
+
+ body {
+ 	text-align: center; 
+ 	background-image: url(); 
+ 	font-family: 'Red Hat Display', sans-serif;
+ }
+
+ main {
+ 	width: 33%;
+ 	margin: 5px auto;
+ 	border: 2px solid red;
+ 	border-radius: 10px;
+
+ }
+
+ h1 {
+ 	color: hsl(223, 47%, 23%);
+ 	padding-top: 30px;
+ 	font-weight: 900px;
+ 	padding-bottom: 30px;
+
+}
+
+p {
+	font-size: 16px;
+	color:hsl(224, 23%, 55%);
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-weight: 700px;
+}
+
+.price {
+	color:hsl(224, 23%, 55%);
+}
+
+.link {
+	color:hsl(245, 75%, 52%);
+}
+
+.mid {
+	display: flex;
+	margin: 0 auto;
+	background-color:hsl(225, 100%, 98%); 
+	justify-content: space-between;
+    width: 80%;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 50px
+}
+
+.pricing {
+	width: 45%;
+}
+
+span {
+	color:hsl(224, 23%, 55%);
+}
+
+.break {
+	width: 60%;
+	line-height: 1.2em;
+}
+
+button {
+	background-color:hsl(245, 75%, 52%);
+	padding: 15px 15px;
+	color: white;
+	width: 75%;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 30px; 
+}
+
+button a {
+	color: white;
+	text-decoration: none;
+}
+
+.last {
+	margin-bottom: 30px;
+}
